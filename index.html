@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,46 +8,107 @@
   <meta name="description" content="A clean catalogue website for Your Brand.">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header class="site-header">
-  <a class="logo" href="index.html"><span class="logo-mark">YB</span><span>Your Brand</span></a>
-  <nav><a class="active" href="index.html">Home</a><a href="products.html">Products</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
-  <button class="menu" aria-label="Open menu">☰</button>
-</header>
+  <header class="site-header">
+    <a class="logo" href="index.html">
+      <div class="logo-top-nav">
+        <img src="images/crafttray-logo.png" alt="CraftTray Logo">
+      </div>
+      <div class="logo-top-nav-text">CraftTray</div>
+    </a>
+    <nav><a class="active" href="index.html">Home</a><a href="products.html">Products</a><a
+        href="about.html">About</a><a href="contact.html">Contact</a></nav>
+    <button class="menu" aria-label="Open menu">☰</button>
+  </header>
 
-<main>
-  <section class="hero">
-    <div class="hero-copy">
-      <p class="eyebrow">SMART • SIMPLE • USEFUL</p>
-      <h1>Products made for<br><em>everyday living.</em></h1>
-      <p class="lead">Explore our thoughtfully selected range of practical products designed to make everyday spaces simpler and better.</p>
-      <a class="button" href="products.html">Explore catalogue <span>→</span></a>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">SMART • SIMPLE • USEFUL</p>
+        <h1>Products made for<br><em>everyday living.</em></h1>
+        <p class="lead">Explore our thoughtfully selected range of practical products designed to make everyday spaces
+          simpler and better.</p>
+        <a class="button" href="products.html">Explore catalogue <span>→</span></a>
+      </div>
+      <div class="hero-card">
+        <div class="placeholder-image"><img src="images/crafttray-logo.png" alt="CraftTray Brand" height="480px"
+            width="480px"></div>
+      </div>
+    </section>
+
+    <section class="intro section">
+      <div>
+        <p class="eyebrow">OUR COLLECTION</p>
+        <h2>Useful products.<br>Clean design.</h2>
+        <p>From home essentials to everyday utility products, our collection focuses on function, durability and value.</p>
+      </div>
+      <div class = "quick-commerce">
+        <p class="eyebrow">AVAILABLE ON QUICK COMMERCE</p>
+        <br>
+        <img src="images/blinkit.jpeg"><br>
+        <a class="commerce-cta" href="https://blinkit.com/s/?q=crafttray">Buy Now →</a>
+      </div>
+    </section>
+
+    <section class="featured section">
+      <div class="section-heading">
+        <h2>Featured products</h2><a href="products.html">View all →</a>
+      </div>
+      <div class="product-grid">
+        <article class="product-card" data-category="home">
+          <div class="product-image"><img src="images/wiper.jpeg" alt="Wiper"></div>
+          <div class="tag">HOME</div>
+          <h3>Wiper</h3>
+         <!--  <p>Short description of the product and its key benefit.</p> -->
+        </article>
+        <article class="product-card" data-category="home">
+          <div class="product-image"><img src="images/green-dustbin.jpeg" alt="Dustbin"></div>
+          <div class="tag">HOME</div>
+          <h3>Dustbin (Green)</h3>
+          <!-- <p>Short description of the product and its key benefit.</p> -->
+        </article>
+        <article class="product-card" data-category="utility">
+          <div class="product-image"><img src="images/stool.png" alt="Stool"></div>
+          <div class="tag">UTILITY</div>
+          <h3>Stool</h3>
+         <!--  <p>Short description of the product and its key benefit.</p> -->
+        </article>
+        <article class="product-card" data-category="utility">
+          <div class="product-image"><img src="images/brown-towel.png" alt="Towel"></div>
+          <div class="tag">UTILITY</div>
+          <h3>Towel (Brown)</h3>
+         <!--  <p>Short description of the product and its key benefit.</p> -->
+        </article>
+        <article class="product-card" data-category="utility">
+          <div class="product-image"><img src="images/wine-towel.png" alt="Towel"></div>
+          <div class="tag">UTILITY</div>
+          <h3>Towel (Wine)</h3>
+         <!--  <p>Short description of the product and its key benefit.</p> -->
+        </article>
+        <article class="product-card" data-category="home">
+          <div class="product-image"><img src="images/brown-dustbin.png" alt="Dustbin"></div>
+          <div class="tag">HOME</div>
+          <h3>Dustbin (Brown)</h3>
+         <!--  <p>Short description of the product and its key benefit.</p> -->
+        </article>
+      </div>
+    </section>
+
+    <section class="statement">
+      <p>“Designed around the things people use every day.”</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo">
+      <div class="logo-footer">
+        <img src="images/crafttray-logo.png" alt="CraftTray Logo">
+      </div>
     </div>
-    <div class="hero-card">
-      <div class="placeholder-image">YOUR<br>BRAND<br>IMAGE</div>
-    </div>
-  </section>
-
-  <section class="intro section">
-    <div><p class="eyebrow">OUR COLLECTION</p><h2>Useful products.<br>Clean design.</h2></div>
-    <p>From home essentials to everyday utility products, our collection focuses on function, durability and value.</p>
-  </section>
-
-  <section class="featured section">
-    <div class="section-heading"><h2>Featured products</h2><a href="products.html">View all →</a></div>
-    <div class="product-grid">
-      <article class="product-card"><div class="product-image">PRODUCT<br>IMAGE</div><h3>Product Name</h3><p>Short product description</p></article>
-      <article class="product-card"><div class="product-image">PRODUCT<br>IMAGE</div><h3>Product Name</h3><p>Short product description</p></article>
-      <article class="product-card"><div class="product-image">PRODUCT<br>IMAGE</div><h3>Product Name</h3><p>Short product description</p></article>
-    </div>
-  </section>
-
-  <section class="statement">
-    <p>“Designed around the things people use every day.”</p>
-  </section>
-</main>
-
-<footer><div class="logo"><span class="logo-mark">YB</span><span>Your Brand</span></div><p>© 2026 Your Brand. All rights reserved.</p></footer>
-<script src="script.js"></script>
+    <p>© 2026 CraftTray. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
+
 </html>
