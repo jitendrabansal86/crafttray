@@ -59,6 +59,12 @@ a {
     font-size: 11px
 }
 
+.logo-top-nav-text {
+    font-family: 'Alex Brush', cursive;
+    font-size: 72px;
+    letter-spacing: -1px;
+    line-height: 1;
+}
 .site-header nav {
     display: flex;
     gap: 34px;
