@@ -44,7 +44,6 @@ a {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-weight: 700;
     letter-spacing: -.02em
 }
 
@@ -61,7 +60,7 @@ a {
 
 .logo-top-nav-text {
     font-family: 'Alex Brush', cursive;
-    font-size: 32px;
+    font-size: 28px;
 }
 .site-header nav {
     display: flex;
