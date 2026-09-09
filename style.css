@@ -60,10 +60,8 @@ a {
 }
 
 .logo-top-nav-text {
-    font-family: 'Allura', cursive;
+    font-family: 'Dancing Script', cursive;
     font-size: 36px;
-    letter-spacing: -1px;
-    line-height: 1;
 }
 .site-header nav {
     display: flex;
